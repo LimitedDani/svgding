@@ -1,4 +1,5 @@
 body, html {
+  background-color: greenyellow;
   margin: 0;
   font-family: sans-serif;
   margin: 1em; }
@@ -17,11 +18,11 @@ svg {
     stroke-width: 15px;
     box-sizing: border-box;
     padding: 0.2em 1em;
-    background-color: lightgray; }
+    background-color: white; }
   .content__field:hover {
     stroke-dasharray: 10000;
     stroke-dashoffset: 10000;
-    animation: dash 5s linear forwards; 
+    animation: dash 7s ease infinite alternate; 
   }
 
 @keyframes dash {
