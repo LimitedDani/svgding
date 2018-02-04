@@ -1,5 +1,5 @@
 body, html {
-  background-color: greenyellow;
+  background-color: indigo;
   margin: 0;
   font-family: sans-serif;
   margin: 1em; }
@@ -11,7 +11,7 @@ svg {
 
 .content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1em; }
   .content__field {
     position: relative;

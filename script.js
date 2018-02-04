@@ -1,8 +1,8 @@
 window.onresize = function() {
-    makeSVG();
+    create();
 };
 
-function makeSVG() {
+function create() {
     let svgns = "http://www.w3.org/2000/svg";
     let classArray = document.getElementsByClassName('content__field');
     let svgRemove = document.getElementsByTagName('svg');
@@ -33,5 +33,6 @@ function makeSVG() {
         });
     }
 }
-
-makeSVG();
+window.onload = function () {
+    create();
+}
